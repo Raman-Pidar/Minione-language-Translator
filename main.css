@@ -16,8 +16,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     max-width: 800px;
     margin: auto;
+    background-image: url(bg.jpg);
 }
+.min-img{
+    max-width: 100%;
+    height: auto;
 
+}
 nav {
     background-color: var(--primary);
     text-align: center;
@@ -61,6 +66,7 @@ button {
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--white);
+    background-color: white;
 }
 
 footer {
